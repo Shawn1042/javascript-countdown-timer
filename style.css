@@ -1,0 +1,19 @@
+/* centering the body,adding margin-top 40vh to
+put the content at the center area. then used background 
+gradient for the background that I got off cssgradient.io! */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+    background: rgb(251,63,86);
+background: radial-gradient(circle, rgba(251,63,86,1) 0%, rgba(51,32,36,1) 100%);
+}
+
+/* styling the count down timer text */
+#countdownTimer{
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 800;
+    font-family: sans-serif;
+}
